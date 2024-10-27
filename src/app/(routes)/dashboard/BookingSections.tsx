@@ -45,7 +45,9 @@ export default function BookingSection({
 
   return (
     <section className="text-center">
-      <h1 className="text-3xl">Hi {firstName || username || 'Guest'}</h1>
+      <h1 className="text-3xl capitalize">
+        Hi {firstName || username || 'Guest'}
+      </h1>
       <GetBookingButton />
     </section>
   );

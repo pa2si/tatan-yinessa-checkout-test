@@ -1,5 +1,9 @@
 whats done:
 
+v 1.1.1
+
+- capitalize for first name in dashboard
+
 v 1.1.0
 
 - first commit
