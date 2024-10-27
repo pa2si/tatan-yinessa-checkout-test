@@ -1,5 +1,9 @@
 whats done:
 
+v 1.1.2
+
+- console.log removed in getBookingByEmail
+
 v 1.1.1
 
 - capitalize for first name in dashboard

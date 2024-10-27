@@ -27,8 +27,6 @@ export default function GetBookingButton() {
       const result = await findBookingByEmail(
         user.emailAddresses[0].emailAddress
       );
-      console.log('Booking result:', result);
-
       if (result.success && result.booking) {
         setBookingData(result.booking);
       } else {
